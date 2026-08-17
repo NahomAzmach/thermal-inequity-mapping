@@ -1,0 +1,23 @@
+# Addis thermal-inequity pipeline — Python deps
+# Earth Engine export (script 01)
+earthengine-api>=1.7
+geemap>=0.37
+# Geospatial IO (scripts 02-07)
+rasterio>=1.4
+geopandas>=1.1
+shapely>=2.1
+pyproj
+fiona
+# Data / ML
+numpy>=2.0
+pandas>=2.2
+pyarrow            # parquet engine
+scikit-learn>=1.5
+xgboost>=3.0
+joblib
+# Statistics
+scipy>=1.13
+statsmodels>=0.14
+# Plotting
+matplotlib>=3.8
+pillow             # GIF writer for script 07
