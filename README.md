@@ -2,7 +2,7 @@
 
 **Mapping Addis Ababa's informal settlements with a satellite AI foundation model, and uncovering an urban-heat penalty that is invisible by day but real at night (2017–2024).**
 
-📄 **[Read the paper (PDF)](_1_5em.pdf)** · 🧾 [LaTeX source](paper/main.tex) · 🎬 [LinkedIn video script](paper/linkedin_video_script.md)
+📄 **[Read the paper (PDF)](_1_5em.pdf)** · 🧾 [LaTeX source](paper/main.tex) 
 
 ![RGB, predicted fabric class, and land-surface temperature for Addis Ababa, 2024](figures/panels_2024.png)
 <sub>For 2024 — left: Sentinel-2 true colour · centre: predicted fabric class (red = informal, grey = other) · right: daytime land-surface temperature.</sub>
