@@ -2,7 +2,7 @@
 
 **Mapping Addis Ababa's informal settlements with a satellite AI foundation model, and finding out an urban heat penalty that is invisible by day but real at night (2017–2024).**
 
-📄 **[Read the paper (PDF)](_1_5em.pdf)** · 🧾 [LaTeX source](paper/main.tex) 
+**[Read the paper (PDF)](_1_5em.pdf)** · [LaTeX source](paper/main.tex) 
 
 ![RGB, predicted fabric class, and land-surface temperature for Addis Ababa, 2024](figures/panels_2024.png)
 <sub>For 2024 — left: Sentinel-2 true colour · centre: predicted fabric class (red = informal, grey = other) · right: daytime land-surface temperature.</sub>
@@ -13,11 +13,11 @@
 
 I used **Google's AlphaEarth** satellite embeddings (a foundation model that turns every 10 m patch of Earth into 64 numbers) plus ~70 hand-drawn labels and a simple linear classifier to map informal settlements — no hand-crafted spectral indices.
 
-- 🛰️ **Classifier works:** informal vs formal fabric at **93.8% cross-validated AUC**.
-- 🏙️ **Watched the city grow:** train once on 2024, apply to 2017 & 2024 → informal prevalence **31% → 42%**, with **18%** of the built city flagged as new growth at the fringe.
-- 🌡️ **Twist:** by **day**, informal fabric is *not* hotter — it's slightly **cooler** (−0.4 °C), even after controlling for elevation and greenery.
-- 🌙 **Twist on the twist:** at **night** the sign flips — informal fabric runs up to **~1 °C hotter**, concentrated in the established dense core.
-- 💡 **Lesson:** *whether you detect urban-heat inequity depends on the time of day you measure it.* Daytime surface temperature hides a penalty that is plainly there at night.
+- **Classifier works:** informal vs formal fabric at **93.8% cross-validated AUC**.
+- **Watched the city grow:** train once on 2024, apply to 2017 & 2024 → informal prevalence **31% → 42%**, with **18%** of the built city flagged as new growth at the fringe.
+- **Twist:** by **day**, informal fabric is *not* hotter — it's slightly **cooler** (−0.4 °C), even after controlling for elevation and greenery.
+- **Twist on the twist:** at **night** the sign flips — informal fabric runs up to **~1 °C hotter**, concentrated in the established dense core.
+- **Lesson:** *whether you detect urban-heat inequity depends on the time of day you measure it.* Daytime surface temperature hides a penalty that is plainly there at night.
 
 ## The key result
 
